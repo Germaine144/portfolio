@@ -13,7 +13,7 @@
     <header>
         <nav id="navbar">
             <ul class="nav-links">
-                <li><a href="#Aime">Aime</a></li>
+                <li><a href="#Aime"><span>Aime</span></a></li>
                 <li><a href="#Service" class="nav-link">Service</a></li>
                 <li><a href="#Experience" class="nav-link">Experience</a></li>
                 <li><a href="#Project" class="nav-link">Project</a></li>
@@ -24,31 +24,25 @@
     </header>
     <main class="banner">
         <section id="welcome">
-            <div><img class="sec" src="./picture/grace.jpg" style="height: 30%;"></div>
-            <div class="wlc">
-                <h5>H'i</h5>
-                <h2>I'm <span>Germaine</span></h2>
-                <h1>aFrontend Developer</h1>
-                <p style="color: white;">A frontend developer creates the visual and interactive parts of websites using
-                    HTML, CSS, and
-                    JavaScript.
-                    They ensure designs are responsive,
-                    user-friendly, and accessible, working closely with designers and backend developers to deliver
-                    seamless
-                    user experiences.</p>
-                <button>Get a Quote</button>
-                <a id="email" style="color: white; text-decoration:underline;">umuhiregermaine12@gmail.com</a>
-            </div>
-        </section>
-        <section class="service">
-            <h2>OUR SERVICE</h2>
-            <div>
-                <ul>
-                    <li>Custom Website Design</li>
-                    <li>Landing Page Development</li>
-                    <li>UI/UX Design Implementation</li>
-                    <li>Website Optimization</li>
-                </ul>
+            <div class="container">
+                <div>
+                    <img class="sec" src="./picture/grace.jpg" >
+                </div>
+                <div class="wlc">
+                    <h5>H'i</h5>
+                    <h2>I'm <span>Germaine</span></h2>
+                    <h1>aFrontend Developer</h1>
+                    <p>A frontend developer creates the visual and interactive parts of websites
+                        using
+                        HTML, CSS, and
+                        JavaScript.
+                        They ensure designs are responsive,
+                        user-friendly, and accessible, working closely with designers and backend developers to deliver
+                        seamless
+                        user experiences.</p>
+                    <button>Get a Quote</button>
+                    <a id="email" style="color: white; text-decoration:underline;">umuhiregermaine12@gmail.com</a>
+                </div>
             </div>
         </section>
         <section class="exp">
@@ -70,9 +64,6 @@
                 <div>
                     <a href="#" class="project-tittle">
                         <img src="./picture/p.png" style="width: 80%;">
-                        <p>
-                            E-COMERCIAL PROJECT<spa></spa>
-                        </p>
                     </a>
                 </div>
                 <div>
@@ -88,38 +79,34 @@
 
             </div>
             <a href="#" class="show">View More<i class="ri-arrow-right-s-line"></i></a>
-            <div class="sc">
-                <h3>FOLLOW INSTAGRAM</h3>
-                <p>@aime_fronted</p>
-            </div>
             <section class="form">
-                <h2>CONTACT FORM</h2>
+                <h3>CONTACT FORM</h3>
                 <form action="" method="POST">
                     <label>
                         First name
                         <input type="text" name="name" id="name" placeholder="First name" required>
-                       
+
                     </label>
                     <label>
                         Lastname
                         <input type="text" name="name" id="name" placeholder="Last name" required>
-                       
+
                     </label>
                     <label>
                         Email
                         <input type="email" name="email" id="email" placeholder="Email" required>
-                     
+
                     </label>
                     <label for="comments">Any Comments or suggest:</label>
                     <textarea id="comments" name="comments" rows="4"
                         placeholder="Enter your comment here..."></textarea>
-                        <button type="submit">Submit</button>
+                    <button type="submit" class="bnt">Submit</button>
                 </form>
             </section>
         </section>
         <section id="contact">
             <h1>Let's Work Work.....</h1>
-            <p class="coffe">How do you take your coffee?</p>
+            <p class="coffe"><i>How do you take your coffee?</i></p>
             <div class="social">
                 <a href="#"><i class="ri-facebook-circle-fill"></i>Facebook</a>
                 <a href="#"><i class="ri-github-fill"></i>GitHub</a>
