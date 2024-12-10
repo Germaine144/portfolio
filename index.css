@@ -33,12 +33,16 @@ h1,h2{
     filter: brightness(30%);
     border-radius: 5px;
 }
+
 .container{
     display:flex ;
     justify-content: center;
-    gap: -150px;
+    gap: 50px;
     padding: 80px;
     margin: 50px;
+}
+.container img{
+    width: 70%;
 }
 .nav-links {
     display: flex;
@@ -89,7 +93,7 @@ span {
     color:#fc6060;
 }
 p{
-    width:50%;
+    width:90%;
     margin:10px auto;
 }
 /*img{
@@ -102,7 +106,7 @@ p{
    width: 30%;
    display: flex;
    justify-content: center;
- 
+   padding: 30px;
  }
  .show{
     text-decoration: none;
@@ -125,21 +129,16 @@ p{
     color: black;
     width:50%;
  }
- 
-
- .box{
-    padding: 50px;
- }
  .red{
     width: 80%;
-    background-color: red;
+    background-color:#fc6060;
     color: white;
     padding: 8px 16px;
     text-align: center;
 }
 .green{
     width: 70%;
-    background-color: green;
+    background-color: rgb(79, 144, 79);
     color: white;
     padding: 8px 16px;
     text-align: center;
@@ -147,14 +146,17 @@ p{
 .exp div{
 align-items: center;
 }
+.box{
+    padding: 30px;
+}
  .sc h3 p{
     padding: 30px;
  }
- .social i,a{
+ .social i{
     color: black;
  }
- #contact h1{
-    margin-top: px;
+ #contact {
+background-color: #ddd;
  }
  #contact .coffe{
     font-size: 25px;
@@ -186,7 +188,6 @@ align-items: center;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
-    align-items: center
 }
 form {
     display:;
