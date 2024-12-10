@@ -11,30 +11,57 @@
 
 <body>
     <header>
-        <img class="sec" src="./picture/grace.jpg" style="height: 30%;">
         <nav id="navbar">
             <ul class="nav-links">
-                <li><a href="#">Aime</a></li>
-                <li><a href="#" class="nav-link">Service</a></li>
-                <li><a href="#" class="nav-link">Experience</a></li>
-                <li><a href="#" class="nav-link">Project</a></li>
-                <li><a href="#" class="nav-link">Contact Us</a></li>
+                <li><a href="#Aime">Aime</a></li>
+                <li><a href="#Service" class="nav-link">Service</a></li>
+                <li><a href="#Experience" class="nav-link">Experience</a></li>
+                <li><a href="#Project" class="nav-link">Project</a></li>
+                <li><a href="#Contact-Us" class="nav-link">Contact Us</a></li>
                 <li><a href="#"><i class="ri-search-line"></i></a></li>
             </ul>
         </nav>
     </header>
     <main class="banner">
         <section id="welcome">
-            <div class="wlc"> 
-                <h5>Hi</h5>
+            <div><img class="sec" src="./picture/grace.jpg" style="height: 30%;"></div>
+            <div class="wlc">
+                <h5>H'i</h5>
                 <h2>I'm <span>Germaine</span></h2>
                 <h1>aFrontend Developer</h1>
-                <p>A frontend developer creates the visual and interactive parts of websites using HTML, CSS, and
+                <p style="color: white;">A frontend developer creates the visual and interactive parts of websites using
+                    HTML, CSS, and
                     JavaScript.
                     They ensure designs are responsive,
                     user-friendly, and accessible, working closely with designers and backend developers to deliver
                     seamless
                     user experiences.</p>
+                <button>Get a Quote</button>
+                <a id="email" style="color: white; text-decoration:underline;">umuhiregermaine12@gmail.com</a>
+            </div>
+        </section>
+        <section class="service">
+            <h2>OUR SERVICE</h2>
+            <div>
+                <ul>
+                    <li>Custom Website Design</li>
+                    <li>Landing Page Development</li>
+                    <li>UI/UX Design Implementation</li>
+                    <li>Website Optimization</li>
+                </ul>
+            </div>
+        </section>
+        <section class="exp">
+            <div class="box">
+                <h3>EXPERIENCE</h3>
+                <p> Redesigns & Upgrades</p>
+                <div class="grey">
+                    <div class="red">80%</div>
+                </div>
+                <p>Interactive Landing Page</p>
+                <div class="grey">
+                    <div class="green">70%</div>
+                </div>
             </div>
         </section>
         <section id="project">
@@ -42,54 +69,53 @@
             <div class="projects">
                 <div>
                     <a href="#" class="project-tittle">
-                        <img src="./picture/p.png">
+                        <img src="./picture/p.png" style="width: 80%;">
                         <p>
                             E-COMERCIAL PROJECT<spa></spa>
                         </p>
                     </a>
                 </div>
                 <div>
-                    <a href="#" class="project-tittle">
-                        <img src="./picture/p1.png">
-                        <p>
-                            SELLING PROJECT <spa></spa>
-                        </p>
-                    </a>
+                    <a href="#" class="project-tittle"></a>
+
+                    <img src="./picture/lg.png" style="width: 70%; height: 80%;">
                 </div>
                 <div>
-                    <a href="#" class="project-tittle">
-                        <img src="./picture/p2.png">
-                        <p>
-                            ADVETISING PROJECT <spa></spa>
-                        </p>
-                    </a>
+                    <a href="#" class="project-tittle"></a>
+
+                    <img src="./picture/p2.png" style="width: 70%; height: 80%;">
                 </div>
-                <div>
-                    <a href="#" class="project-tittle">
-                        <img src="./picture/p9.png">
-                        <p>
-                            HOME PAGE OF TOUR PACKAGE
-                        </p>
-                    </a>
-                </div>
-                <div>
-                    <a href="#" class="project-tittle">
-                        <img src="./picture/p5.png">
-                        <p>
-                            WEBSITE OF TOUR
-                        </p>
-                    </a>
-                </div>
-                <div>
-                    <a href="#" class="project-tittle">
-                        <img src="./picture/p7.png">
-                        <p>
-                            HOW TO MAKE FORM
-                        </p>
-                    </a>
-                </div>
+
             </div>
-            <a href="#" class="show">Show All<i class="ri-arrow-right-s-line"></i></a>
+            <a href="#" class="show">View More<i class="ri-arrow-right-s-line"></i></a>
+            <div class="sc">
+                <h3>FOLLOW INSTAGRAM</h3>
+                <p>@aime_fronted</p>
+            </div>
+            <section class="form">
+                <h2>CONTACT FORM</h2>
+                <form action="" method="POST">
+                    <label>
+                        First name
+                        <input type="text" name="name" id="name" placeholder="First name" required>
+                       
+                    </label>
+                    <label>
+                        Lastname
+                        <input type="text" name="name" id="name" placeholder="Last name" required>
+                       
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                     
+                    </label>
+                    <label for="comments">Any Comments or suggest:</label>
+                    <textarea id="comments" name="comments" rows="4"
+                        placeholder="Enter your comment here..."></textarea>
+                        <button type="submit">Submit</button>
+                </form>
+            </section>
         </section>
         <section id="contact">
             <h1>Let's Work Work.....</h1>
@@ -103,9 +129,7 @@
             </div>
         </section>
         <footer>
-            <p>**This is just a fake portfolio. All the projects and contact details given are not real All the projects
-                and contact details given are not real.</p>
-            © Created for freeCodeCamp
+            &copy All rights reserved | This website created by Aime 2024
         </footer>
     </main>
 </body>
